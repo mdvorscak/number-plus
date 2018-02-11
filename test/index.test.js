@@ -77,3 +77,13 @@ test('next multiple', t => {
   number.next();
   t.is(43, number.next());
 });
+
+test('prev single', t => {
+  t.is(41, n(42).prev());
+});
+
+test('prev multiple', t => {
+  const number = n(42);
+  number.prev();
+  t.is(40, number.prev());
+});

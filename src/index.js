@@ -35,6 +35,10 @@ class NumberPlus {
     this.num++;
     return this.num;
   }
+  prev() {
+    this.num--;
+    return this.num;
+  }
 }
 
 const n = num => {
