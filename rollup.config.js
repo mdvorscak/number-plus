@@ -3,24 +3,21 @@ import babelrc from 'babelrc-rollup';
 
 const pkg = require('./package.json');
 
-const plugins = [
-  babel(babelrc())
-];
-
-export default {
+export default [{
   input: 'src/index.js',
-  plugins,
-  output: [
-    {
-      file: pkg.main,
-      format: 'umd',
-      name: 'numberPlus',
-      sourcemap: true
-    },
-    {
+  plugins: [babel(babelrc())],
+  output: [{
       file: pkg.module,
-      format: 'es',
-      sourcemap: true
-    }
-  ]
-};
+      format: 'es'
+    }]
+},
+{
+  input: 'src/index.js',
+  plugins: [babel(babelrc({path: '.browser.babelrc'}))],
+  output: [{
+    file: pkg.main,
+    format: 'umd',
+    name: 'numberPlus'
+  }]
+}
+];

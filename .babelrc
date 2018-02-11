@@ -1,9 +1,7 @@
 {
-  "presets": [["env",
-    {
-      "targets": {
-        "browsers": ["last 1 versions"]
-      }
-    }]],
-    "ignore": ["node_modules/**/*.js"]
+  "presets": [["env", {
+    "targets": {
+      "node": "current"
+    }
+  }]]
 }
