@@ -31,6 +31,10 @@ class NumberPlus {
   odd() {
     return !this.even();
   }
+  next() {
+    this.num++;
+    return this.num;
+  }
 }
 
 const n = num => {

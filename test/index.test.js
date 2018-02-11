@@ -67,3 +67,13 @@ test('odd postitive', t => {
 test('odd negative', t => {
   t.false(n(2).odd());
 });
+
+test('next single', t => {
+  t.is(42, n(41).next());
+});
+
+test('next multiple', t => {
+  const number = n(41);
+  number.next();
+  t.is(43, number.next());
+});
