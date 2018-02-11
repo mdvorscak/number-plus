@@ -6,9 +6,7 @@
   "module": "lib/index.mjs",
   "jsnext:main": "lib/index.mjs",
   "scripts": {
-    "test": "ava",
-    "lint": "eslint src",
-    "pretest": "npm run lint"
+    "test": "xo && ava"
   },
   "keywords": [
     "ruby",
@@ -29,6 +27,7 @@
     "eslint": "^4.17.0",
     "rollup": "^0.55.5",
     "rollup-plugin-babel": "^3.0.3",
-    "rollup-plugin-istanbul": "^2.0.0"
+    "rollup-plugin-istanbul": "^2.0.0",
+    "xo": "^0.18.2"
   }
 }
