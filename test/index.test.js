@@ -87,3 +87,7 @@ test('prev multiple', t => {
   number.prev();
   t.is(40, number.prev());
 });
+
+test('abs', t => {
+  t.is(42, n(-42).abs());
+});

@@ -39,6 +39,9 @@ class NumberPlus {
     this.num--;
     return this.num;
   }
+  abs() {
+    return Math.abs(this.num);
+  }
 }
 
 const n = num => {
