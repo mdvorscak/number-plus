@@ -1,0 +1,32 @@
+{
+  "name": "number-plus",
+  "version": "1.0.0",
+  "description": "A number utility package based on the Ruby Integer class",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "jsnext:main": "lib/index.mjs",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint src",
+    "pretest": "npm run lint"
+  },
+  "keywords": [
+    "ruby",
+    "integer",
+    "number",
+    "utils",
+    "plus",
+    "number-plus"
+  ],
+  "author": "Mike Dvorscak",
+  "license": "MIT",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babelrc-rollup": "^3.0.0",
+    "rollup": "^0.55.5",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-istanbul": "^2.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+src
+test
+coverage
+lib-cov
+html-report
+xunit.xml
+
+.travis.yml
+karma.conf.js
+*.config.js
+.eslintrc
+.gitignore
+.babelrc
+.editorconfig
+.vscode
