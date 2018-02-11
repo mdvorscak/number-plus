@@ -13,3 +13,4 @@ karma.conf.js
 .babelrc
 .editorconfig
 .vscode
+yarn.lock
