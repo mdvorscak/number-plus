@@ -47,3 +47,23 @@ test('upTo is passed the current index', t => {
   const callValues = spy.getCalls().map(c => c.args[0]);
   t.deepEqual(callValues, [1, 2, 3, 4, 5]);
 });
+
+test('even positive', t => {
+  t.true(n(2).even());
+});
+
+test('even negative', t => {
+  t.false(n(1).even());
+});
+
+test('0 is even', t => {
+  t.true(n(0).even());
+});
+
+test('odd postitive', t => {
+  t.true(n(1).odd());
+});
+
+test('odd negative', t => {
+  t.false(n(2).odd());
+});

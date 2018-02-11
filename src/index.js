@@ -25,6 +25,12 @@ class NumberPlus {
       }
     };
   }
+  even() {
+    return this.num % 2 === 0;
+  }
+  odd() {
+    return !this.even();
+  }
 }
 
 const n = num => {
