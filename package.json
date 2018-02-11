@@ -20,7 +20,8 @@
   ],
   "author": "Mike Dvorscak",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "ava": "^0.25.0",
     "babel-eslint": "^8.2.1",
     "babel-preset-env": "^1.6.1",
