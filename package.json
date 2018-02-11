@@ -6,6 +6,7 @@
   "module": "lib/index.mjs",
   "jsnext:main": "lib/index.mjs",
   "scripts": {
+    "build": "rollup -c --environment BUILD:production",
     "test": "xo && ava"
   },
   "keywords": [
@@ -22,6 +23,7 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "babel-eslint": "^8.2.1",
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "babelrc-rollup": "^3.0.0",
