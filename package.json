@@ -9,7 +9,10 @@
     "build": "rollup -c --environment BUILD:production",
     "test": "BABEL_ENV=test xo && nyc ava",
     "report": "nyc report --reporter=html",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "preversion": "npm run test",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "keywords": [
     "ruby",
