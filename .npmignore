@@ -1,17 +1,14 @@
+.nyc_output
+coverage
 src
 test
-coverage
-lib-cov
-html-report
-xunit.xml
 
-.nyc_output
-.travis.yml
-karma.conf.js
-*.config.js
-.eslintrc
-.gitignore
 .babelrc
+.browser.babelrc
+.travis.yml
+*.config.js
+.gitignore
+
 .editorconfig
 .vscode
 yarn.lock
