@@ -8,7 +8,8 @@
   "scripts": {
     "build": "rollup -c --environment BUILD:production",
     "test": "BABEL_ENV=test xo && nyc ava",
-    "report": "nyc report --reporter=html"
+    "report": "nyc report --reporter=html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "ruby",
@@ -28,6 +29,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "babelrc-rollup": "^3.0.0",
+    "coveralls": "^3.0.0",
     "eslint": "^4.17.0",
     "nyc": "^11.4.1",
     "rollup": "^0.55.5",
