@@ -4,6 +4,13 @@
 
 A number utility package based on the [Ruby Integer class](http://ruby-doc.org/core-2.4.0/Integer.html). 
 
+## Differences with [number](https://www.npmjs.com/package/number)
+- Doesn't modify the prototype chain!
+- Modernized version, provides both es6 and umd 
+- Not extendible 
+- Some variation on the original Ruby names
+- Handle upTo/downTo edge cases instead of looping infinitely
+
 ## Getting Started
 
 Install it via npm:
