@@ -7,7 +7,8 @@
   "jsnext:main": "lib/index.mjs",
   "scripts": {
     "build": "rollup -c --environment BUILD:production",
-    "test": "xo && ava"
+    "test": "BABEL_ENV=test xo && nyc ava",
+    "report": "nyc report --reporter=html"
   },
   "keywords": [
     "ruby",
@@ -28,6 +29,7 @@
     "babel-register": "^6.26.0",
     "babelrc-rollup": "^3.0.0",
     "eslint": "^4.17.0",
+    "nyc": "^11.4.1",
     "rollup": "^0.55.5",
     "rollup-plugin-babel": "^3.0.3",
     "sinon": "^4.3.0",
