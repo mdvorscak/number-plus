@@ -5,6 +5,7 @@ lib-cov
 html-report
 xunit.xml
 
+.nyc_output
 .travis.yml
 karma.conf.js
 *.config.js
