@@ -1,6 +1,6 @@
 # number-plus
 
-[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![License: MIT][MIT-image]][MIT-url]
+[![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![License: MIT][MIT-image]][MIT-url] [![XO code style][xo-image]][xo-url]
 
 A number utility package based on the [Ruby Integer class](http://ruby-doc.org/core-2.4.0/Integer.html). 
 
@@ -96,3 +96,6 @@ Note 2: Will throw if the range is invalid (e.g. `n(10).upTo(1)`)
 
 [MIT-url]: https://opensource.org/licenses/MIT
 [MIT-image]: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
+
+[xo-url]: https://github.com/xojs/xo
+[xo-image]: https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square
