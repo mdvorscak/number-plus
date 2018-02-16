@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "jsnext:main": "lib/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdvorscak/number-plus"
+  },
   "scripts": {
     "build": "rollup -c --environment BUILD:production",
     "test": "BABEL_ENV=test xo && nyc ava",
