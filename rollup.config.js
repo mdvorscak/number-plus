@@ -7,9 +7,9 @@ export default [{
   input: 'src/index.js',
   plugins: [babel(babelrc())],
   output: [{
-      file: pkg.module,
-      format: 'es'
-    }]
+    file: pkg.module,
+    format: 'es'
+  }]
 },
 {
   input: 'src/index.js',

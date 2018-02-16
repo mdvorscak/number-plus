@@ -45,10 +45,7 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "space": true,
-    "ignores": [
-      "rollup.config.js"
-    ]
+    "space": true
   },
   "ava": {
     "require": [
