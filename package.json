@@ -39,13 +39,14 @@
     "coveralls": "^3.0.0",
     "eslint": "^4.17.0",
     "nyc": "^11.4.1",
+    "prettier": "1.10.2",
     "rollup": "^0.55.5",
     "rollup-plugin-babel": "^3.0.3",
     "sinon": "^4.3.0",
-    "xo": "^0.18.2"
+    "xo": "^0.20.2"
   },
   "xo": {
-    "space": true
+    "prettier": true
   },
   "ava": {
     "require": [
